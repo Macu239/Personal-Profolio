@@ -62,58 +62,7 @@ export default function Contact() {
             ))}
           </div>
         </div>
-
-        <form className="contact-form" onSubmit={handleSubmit}>
-          <div className="form-row">
-            <div className="f-wrap">
-              <label className="f-lbl">Name</label>
-              <input
-                name="name"
-                type="text"
-                placeholder="Your name"
-                value={form.name}
-                onChange={handleChange}
-              />
-            </div>
-            <div className="f-wrap">
-              <label className="f-lbl">Email</label>
-              <input
-                name="email"
-                type="email"
-                placeholder="you@email.com"
-                value={form.email}
-                onChange={handleChange}
-              />
-            </div>
-          </div>
-          <div className="f-wrap">
-            <label className="f-lbl">Subject</label>
-            <input
-              name="subject"
-              type="text"
-              placeholder="What's on your mind?"
-              value={form.subject}
-              onChange={handleChange}
-            />
-          </div>
-          <div className="f-wrap">
-            <label className="f-lbl">Message</label>
-            <textarea
-              name="message"
-              rows={6}
-              placeholder="Tell me about your project..."
-              value={form.message}
-              onChange={handleChange}
-            />
-          </div>
-          <button
-            type="submit"
-            className="btn-primary"
-            style={{ alignSelf: "flex-start" }}
-          >
-            Send message →
-          </button>
-        </form>
+        <ContactForm />
       </div>
     </section>
   );

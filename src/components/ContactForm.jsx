@@ -9,7 +9,7 @@ function ContactForm() {
 
   return (
     <form onSubmit={handleSubmit} className="contact-form">
-      <div className="row">
+      <div className="form-row">
         <div className="f-wrap">
           <label className="f-lbl">Name</label>
           <input name="name" type="text" placeholder="Your name" required />
