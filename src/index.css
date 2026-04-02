@@ -7,24 +7,31 @@
 }
 
 :root {
-  --bg:        #0f1117;
-  --bg2:       #161b24;
-  --bg3:       #1c2330;
-  --bg4:       #222a38;
-  --surface:   #1e2636;
-  --border:    rgba(255, 255, 255, 0.07);
-  --border2:   rgba(255, 255, 255, 0.12);
-  --teal:      #2dd4bf;
-  --teal-dim:  #1aa896;
-  --teal-pale: rgba(45, 212, 191, 0.1);
-  --teal-glow: rgba(45, 212, 191, 0.06);
-  --blue:      #60a5fa;
-  --blue-pale: rgba(96, 165, 250, 0.1);
-  --text:      #e8edf4;
-  --text2:     #8b97aa;
-  --text3:     #5a6474;
-  --tag-bg:    rgba(45, 212, 191, 0.1);
-  --tag-text:  #5eead4;
+  --bg:           #140a0d;
+  --bg2:          #1a0f13;
+  --bg3:          #211418;
+  --bg4:          #291a1f;
+  --surface:      #22151a;
+  --border:       rgba(255, 255, 255, 0.07);
+  --border2:      rgba(255, 255, 255, 0.12);
+
+  /* Primary — burgundy */
+  --primary:      #800020;
+  --primary-dim:  #660019;
+  --primary-pale: rgba(128, 0, 32, 0.12);
+  --primary-glow: rgba(128, 0, 32, 0.08);
+  --primary-rim:  rgba(128, 0, 32, 0.28);
+
+  /* Accent — soft purple, complements burgundy */
+  --accent:       #c084fc;
+  --accent-pale:  rgba(192, 132, 252, 0.12);
+
+  --text:         #f3e9ec;
+  --text2:        #a78b91;
+  --text3:        #6b4c52;
+
+  --tag-bg:       rgba(128, 0, 32, 0.15);
+  --tag-text:     #fda4af;
 }
 
 html {
@@ -59,7 +66,7 @@ body {
   font-size: 0.72rem;
   text-transform: uppercase;
   letter-spacing: 0.14em;
-  color: var(--teal);
+  color: var(--primary);
   font-weight: 500;
   margin-bottom: 0.6rem;
 }
@@ -67,7 +74,7 @@ body {
   content: '';
   width: 24px;
   height: 1px;
-  background: rgba(45, 212, 191, 0.4);
+  background: var(--primary-rim);
 }
 
 .section-title {
@@ -83,8 +90,8 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background: var(--teal);
-  color: #0f1117;
+  background: var(--primary);
+  color: #f3e9ec;
   text-decoration: none;
   padding: 0.8rem 1.8rem;
   border-radius: 8px;
@@ -97,7 +104,7 @@ body {
   transition: background 0.2s, transform 0.15s;
 }
 .btn-primary:hover {
-  background: var(--teal-dim);
+  background: var(--primary-dim);
   transform: translateY(-2px);
 }
 
@@ -115,8 +122,8 @@ body {
   transition: border-color 0.2s, color 0.2s;
 }
 .btn-ghost:hover {
-  border-color: var(--teal);
-  color: var(--teal);
+  border-color: var(--primary-rim);
+  color: var(--text);
 }
 
 /* ── Scroll reveal ── */
@@ -138,7 +145,7 @@ body {
   padding: 0.22rem 0.65rem;
   border-radius: 20px;
   font-weight: 500;
-  border: 1px solid rgba(45, 212, 191, 0.12);
+  border: 1px solid var(--primary-rim);
 }
 
 /* ── Animations ── */

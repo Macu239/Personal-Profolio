@@ -3,9 +3,9 @@ import { useReveal } from '../hooks/useReveal';
 import './Contact.css';
 
 const contactLinks = [
-  { icon: '✉', label: 'alex@example.com',         href: 'mailto:alex@example.com' },
-  { icon: '⌨', label: 'github.com/alexrivera',    href: 'https://github.com' },
-  { icon: '🔗', label: 'linkedin.com/in/alexrivera', href: 'https://linkedin.com' },
+  { icon: '✉', label: 'jes063@ucsd.edu',         href: 'jes063@ucsd.edu' },
+  { icon: '⌨', label: 'github.com/Macu239',    href: 'https://github.com/Macu239' },
+  { icon: '🔗', label: 'linkedin.com/in/jeremy-shih-ucsd/', href: 'https://www.linkedin.com/in/jeremy-shih-ucsd/' },
 ];
 
 export default function Contact() {

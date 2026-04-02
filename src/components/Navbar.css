@@ -19,7 +19,7 @@
   letter-spacing: 0.01em;
 }
 .nav-logo span {
-  color: var(--teal);
+  color: var(--primary);
 }
 
 .nav-links {
@@ -37,7 +37,7 @@
   transition: color 0.2s;
 }
 .nav-links a:hover {
-  color: var(--teal);
+  color: var(--primary);
 }
 
 @media (max-width: 768px) {

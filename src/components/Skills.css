@@ -24,7 +24,7 @@
   font-size: 0.7rem;
   text-transform: uppercase;
   letter-spacing: 0.12em;
-  color: var(--teal);
+  color: var(--primary);
   font-weight: 500;
   margin-bottom: 0.9rem;
   padding-bottom: 0.6rem;
@@ -46,7 +46,7 @@
   width: 3px;
   height: 14px;
   border-radius: 2px;
-  background: rgba(45, 212, 191, 0.35);
+  background: var(--primary-rim);
   flex-shrink: 0;
 }
 

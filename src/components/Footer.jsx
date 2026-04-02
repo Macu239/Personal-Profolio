@@ -8,7 +8,7 @@ export default function Footer() {
 
   return (
     <footer className="footer">
-      Crafted with care by Alex Rivera &mdash;{' '}
+      © 2026 Jeremy Shih. All Rights Reserved. &mdash;{' '}
       <a href="#top" onClick={scrollToTop}>Back to top ↑</a>
     </footer>
   );
