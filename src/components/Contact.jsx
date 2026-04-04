@@ -40,7 +40,7 @@ export default function Contact() {
     <section id="contact" className="section-wrap">
       <div ref={titleRef} className={`reveal${titleVisible ? " visible" : ""}`}>
         <p className="eyebrow">Contact</p>
-        <h2 className="section-title">Let's work together</h2>
+        <h2 className="section-title">Say hi</h2>
       </div>
 
       <div

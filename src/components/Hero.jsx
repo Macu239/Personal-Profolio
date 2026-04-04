@@ -16,7 +16,9 @@ export default function Hero() {
             Still <em>learning</em>, always building.
           </h1>
           <p className="hero-sub">
-            I am gonna came up with a few sentences
+            I’m driven by curiosity and the process of building—learning
+            quickly, adapting to new challenges, and working with others to turn
+            ideas into real products.
           </p>
           <div className="hero-actions">
             <a href="#projects" className="btn-primary">

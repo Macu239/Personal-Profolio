@@ -4,7 +4,7 @@ import './About.css';
 const facts = [
   { icon: '📍', label: 'Based in',  value: 'San Diego / Taiwan' },
   { icon: '🎓', label: 'Studying',  value: 'Computer Science @ UC San Diego' },
-  { icon: '☕', label: 'Powered by', value: 'Coffee and good documentation' },
+  { icon: '💡', label: 'Motivated by', value: 'Solving complex problems and building impactful applications' },
   { icon: '🎁', label: 'Currently exploring', value: 'AI, LLMs, and full-stack systems' },
 ];
 
@@ -16,7 +16,7 @@ export default function About() {
     <section id="about" className="section-wrap">
       <div ref={titleRef} className={`reveal${titleVisible ? ' visible' : ''}`}>
         <p className="eyebrow">About me</p>
-        <h2 className="section-title">The human behind the code</h2>
+        <h2 className="section-title">Where math, code, and curiosity meet.</h2>
       </div>
 
       <div ref={gridRef} className={`about-grid reveal${gridVisible ? ' visible' : ''}`}>
