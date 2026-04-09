@@ -83,8 +83,9 @@
   margin-bottom: 1.25rem;
   letter-spacing: -0.01em;
 }
+
 .hero-name em {
-  color: var(--primary);
+  color: #BE0231;
   font-style: italic;
 }
 
