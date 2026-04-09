@@ -8,7 +8,7 @@ const projects = [
     desc: "Building a MERN stack social platform for music discovery andmicroblog-style interaction. Designed scalable APIs, authentication, anda modular Express.js backend, with a focus on system design and deployment.",
 
     tags: ["React", "MongoDB", "Node.js", "Express"],
-    href: "#",
+    href: "https://github.com/Macu239/Resonance",
   },
   {
     num: "02.",
