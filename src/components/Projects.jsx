@@ -19,10 +19,10 @@ const projects = [
   },
   {
     num: "03.",
-    title: "2048-Game — Game recreation in C++",
-    desc: "A simple recreation of the popular 2048 game implemented in C++.",
-    tags: ["C++"],
-    href: "https://github.com/Macu239/2048-Game",
+    title: "Travel Splitter — Expense Tracking App",
+    desc: "A simple expense tracking app for splitting costs among friends.",
+    tags: ["React", "MongoDB", "Node.js", "Express"],
+    href: "https://github.com/Macu239/TravelSplitter",
   },
 ];
 
