@@ -4,7 +4,7 @@ import "./Contact.css";
 import ContactForm from "./ContactForm";
 
 const contactLinks = [
-  { icon: "✉", label: "jes063@ucsd.edu", href: "jes063@ucsd.edu" },
+  { icon: "✉", label: "jes063@ucsd.edu", href: "mailto:jes063@ucsd.edu" },
   {
     icon: "⌨",
     label: "github.com/Macu239",
