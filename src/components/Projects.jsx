@@ -24,6 +24,13 @@ const projects = [
     tags: ["React", "MongoDB", "Node.js", "Express"],
     href: "https://github.com/Macu239/TravelSplitter",
   },
+  {
+    num: "04.",
+    title: "AI Resume Trailor — Resume Optimization Tool",
+    desc: "A web application that utilizes AI to optimize resumes for job applications, providing tailored suggestions and improvements based on industry standards and job descriptions.",
+    tags: ["Next.js", "Tailwind CSS", "Groq API", "TypeScript"],
+    href: "https://github.com/Macu239/TravelSplitter",
+  },
 ];
 
 export default function Projects() {

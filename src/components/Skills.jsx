@@ -4,7 +4,7 @@ import "./Skills.css";
 const skillGroups = [
   {
     label: "Languages",
-    skills: ["JavaScript", "C++", "Java", "Python"],
+    skills: ["JavaScript","TypeScript", "C++", "Java", "Python"],
   },
   {
     label: "Frontend",
